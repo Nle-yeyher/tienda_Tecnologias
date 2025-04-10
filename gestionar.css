@@ -1,0 +1,114 @@
+/* Estilos para gestionar usuarios */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form input, form select, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para los botones de editar y eliminar */
+a.edit-btn, a.delete-btn {
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+a.edit-btn {
+    background-color: #007BFF; /* Azul */
+}
+
+a.edit-btn:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+}
+
+a.delete-btn {
+    background-color: #FF5733; /* Rojo */
+}
+
+a.delete-btn:hover {
+    background-color: #c13d22; /* Rojo más oscuro */
+}
+/* Estilos para el botón de volver */
+a.back-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007BFF; /* Azul */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+a.back-btn:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+}

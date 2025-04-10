@@ -1,0 +1,129 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* Estilos para los botones */
+.btn-agregar, .btn-volver {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Botón de agregar al carrito */
+.btn-agregar {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-agregar:hover {
+    background-color: #218838;
+}
+
+.btn-agregar:active {
+    background-color: #1e7e34;
+}
+
+/* Botón de volver */
+.btn-volver {
+    background-color: #007BFF;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn-volver:hover {
+    background-color: #0056b3;
+}
+
+/* Alineación de los enlaces dentro de la tabla */
+table td a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+table td a:hover {
+    background-color: #0056b3;
+}
+
+table td a:active {
+    background-color: #004085;
+}
+
+/* Estilo del contenedor de los botones para alinearlos correctamente */
+table td {
+    text-align: center;
+}
+
+a.back-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007BFF; /* Azul */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+a.back-btn:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+}

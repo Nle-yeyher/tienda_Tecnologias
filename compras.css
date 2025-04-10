@@ -1,0 +1,33 @@
+.mensaje-confirmacion {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e9f7e5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mensaje-confirmacion h2 {
+    color: #28a745;
+    font-size: 24px;
+}
+
+.mensaje-confirmacion p {
+    font-size: 18px;
+    color: #333;
+}
+
+.mensaje-confirmacion .btn-volver {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.mensaje-confirmacion .btn-volver:hover {
+    background-color: #0056b3;
+}
